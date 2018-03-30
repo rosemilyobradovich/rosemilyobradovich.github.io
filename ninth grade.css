@@ -1,0 +1,60 @@
+body {
+  background-image: url("http://pa1.narvii.com/6596/51bcc678989f1d0a43241fe840f0ec1eb0a233ea_hq.gif");
+  background-size: 1366px 1024px;
+  color: #1a0000;
+}
+.navigation {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px 0 10px 10px;
+    width: 10%;
+    background-color: #e6ffff;
+    height: 100%; /* Full height */
+    position: fixed; /* Make it stick, even on scroll */
+    overflow: auto; /* Enable scrolling if the sidenav has too much content */
+  border-color: #e6ffff;
+  border-radius: 25px;
+  border-style: solid;
+}
+.info {
+  text-align: center;
+  padding:10px 50px 10px 50px;
+  background-color:#e6ffff;
+  color: #001a1a;
+  border-color: #e6ffff;
+  border-radius: 25px;
+  border-style: solid;
+}
+.break1 {
+  padding: 0 500px 0 0;
+}
+li a {
+  display: block;
+  width: 60px;
+  color: #001a1a;
+  padding: 8px 16px;
+  text-decoration: none;
+  background-color:#e6ffff;
+  border-color: #e6ffff;
+  border-radius: 25px;
+  border-style: solid;
+}
+li a:hover {
+    background-color: #ffe6e6;
+    color: #001a1a;
+}
+.body {
+  padding: 0 0 0 15%;
+}
+.info {
+  right: 10px;
+  position: absolute;
+  padding:10px 50px 10px 50px;
+  background-color:#e6ffff;
+  color: #001a1a;
+  border-color: #e6ffff;
+  border-radius: 25px;
+  border-style: solid;
+  height: 100%; /* Full height */
+  overflow: auto;
+}
